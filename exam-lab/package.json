@@ -1,0 +1,23 @@
+{
+  "name": "exam-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Practice lab for the MERN end-term controllers. You write controllers/, the lab grades them.",
+  "scripts": {
+    "q": "node lab/grade.js",
+    "test": "node --test --test-concurrency=1 tests/",
+    "dev": "node --watch lab/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.3.0",
+    "supertest": "^7.3.1"
+  }
+}
